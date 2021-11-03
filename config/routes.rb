@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'appointment/get_appointment'
   devise_for :users
   resources :friends
   #get 'home/index'
