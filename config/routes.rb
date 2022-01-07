@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'items/warehouse'
   get 'appointment/get_appointment'
   devise_for :users
   resources :friends
